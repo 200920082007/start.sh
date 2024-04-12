@@ -9,4 +9,4 @@ fi
 cd /Spidy_unknown_dimension
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
-gunicorn app:app && python3 bot.py
+gunicorn app:app & python3 bot.py
